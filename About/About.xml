@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Rimbound - Floran Xenotype</name>
+	<author>Airo</author>
+	<description>This mod added the Floran xenotype that is included within a series called "Rimbound".\n\nPlant-based humanoids, they are extremely violent carnivores with no central government or power structure, split into numerous tribes spread across the universe, each led by a Greenfinger. Though they are biologically a single-sex race, they may adapt sexually dimorphic physical traits and male/female identities if they so choose. Their speech is often simplistic, and they tend to hisss their sibilantsss. Their primary drives are hunting, acquiring trophies, fighting, eating meat, and more hunting. It is speculated that their generally casual view towards killing and consuming other intelligent species stems from not viewing "meat" as "alive" in the same sense they are. However, as the Floran spread throughout the rim, more and more individuals are recognizing a need to integrate, make friends, and maybe not stab anyone that slightly inconveniences them..</description>
+	<packageId>Airo.RimboundFloranXenotype</packageId>
+	<url />
+	<modIconPath IgnoreIfNoMatchingField="True">UI/RimboundLogo</modIconPath>
+	<supportedVersions>
+		<li>1.5</li>
+	</supportedVersions>
+	<modDependencies>
+		<li>
+			<packageId>Ludeon.RimWorld.Biotech</packageId>
+			<displayName>Biotech</displayName>
+		</li>
+		<li>
+			<packageId>Airo.RimboundCore</packageId>
+			<displayName>Rimbound - Core</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3397548030</steamWorkshopUrl>
+			<downloadUrl>https://github.com/Airomeda/Rimbound/releases/latest</downloadUrl>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>brrainz.harmony</li>
+		<li>Ludeon.RimWorld.Royalty</li>
+		<li>Ludeon.RimWorld.Ideology</li>
+		<li>Ludeon.RimWorld.Biotech</li>
+		<li>Ludeon.RimWorld.Anomaly</li>
+		<li>Airo.RimboundCore</li>
+		<li>OskarPotocki.VanillaFactionsExpanded.Core</li>
+		<li>CETeam.CombatExtended</li>
+	</loadAfter>
+</ModMetaData>

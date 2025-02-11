@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <RulePackDef>
+    <defName>RB_NameFloran</defName>
+    <rulePack>
+      <rulesStrings Inherit="false">
+        <li>r_name->[firstName] [lastName]</li>
+        <li>firstName->[firstName_Floran]</li>
+        <li>lastName->[lastName_Floran]</li>
+      </rulesStrings>
+      <rulesFiles>
+        <li>firstName_Floran->Names/FirstNames_Floran</li>
+        <li>lastName_Floran->Names/LastNames_Floran</li>
+      </rulesFiles>
+    </rulePack>
+  </RulePackDef>
+
+</Defs>
